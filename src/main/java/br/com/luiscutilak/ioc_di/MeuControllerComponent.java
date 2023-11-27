@@ -13,8 +13,7 @@ public class MeuControllerComponent {
     MeuComponent meuComponent;
     @GetMapping("/")
     public String chamandoComponent() {
-        var meuComponent = new MeuComponent();
-        var resultado = meuComponent.chamarMeuComponent();
+       var resultado = meuComponent.chamarMeuComponent();
         return resultado;
     }
 }
